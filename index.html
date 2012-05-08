@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" href="css/cupertino/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="qunit.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+    <title>LucidWorkflow</title>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script>
+    <script src="parsePlugin.js"></script>
+    <script type="text/javascript" src="qunit.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="parse.js"></script>
+    <script type="text/javascript" src="networkStatus.js"></script>
+    <script type="text/javascript" src="tests.js"></script>
+</head>
+<body>
+<div class="update ui-state-highlight ui-corner-all">
+    <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+    Update available <input type="button" onclick="window.location.reload(true)" value="reload app">
+</div>
+<div class="availableTransitions">
+    <h1>Available Transitions</h1>
+    <ul class="list"></ul>
+</div>
+<div class="history">
+    <h1>History <input type="button" onclick="window.localStorage.clear();draw();" value="clear history"></h1>
+    <ol class="list"></ol>
+</div>
+<div class="tools">
+    <div class="signIn">
+        <div class="error ui-state-error ui-corner-all">
+            <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+            <strong><span class="errorMessage">filler</span></strong></br>
+            error <span class="errorNumber"></span>
+        </div>
+        <form action="javascript:signUp()" id="form">
+            <input type="text" class="default" id="emailAddress" title="email address"/>
+            <input type="text" class="default" id="password" title="password"/>
+            <input type="submit" id="submit" value="sign in / up"/>
+        </form>
+    </div>
+    <input type="button" class="signOut" onclick="signOut()" value="sign out"/>
+    <div class="status">
+        <span class="networkStatus" onclick="keepCheckingNetworkStatus = !keepCheckingNetworkStatus; checkNetworkStatus()"></span>
+        user state version <span class="version"></span>
+    </div>
+</div>
+
+<div class="test">
+    <h1 id="qunit-header">QUnit example</h1>
+    <h2 id="qunit-banner"></h2>
+    <div id="qunit-testrunner-toolbar"></div>
+    <h2 id="qunit-userAgent"></h2>
+    <ol id="qunit-tests"></ol>
+    <div id="qunit-fixture">test markup, will be hidden</div>
+</div>
+</body>
+</html>
