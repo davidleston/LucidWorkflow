@@ -1,40 +1,39 @@
 window.applicationCache.addEventListener("updateready", function () {
-    $('.update').css({visibility: 'visible'});
+    $('.update').css({display: 'block'});
 });
 
 var workflow;
 
+function getUserState() {
+    "use strict";
+    var userState = window.localStorage.getItem('userState');
+    if (userState) {
+        return JSON.parse(userState);
+    }
+    return {
+        version : 0,
+        transitions : []
+    };
+}
+
+function setUserState(userState) {
+    "use strict";
+    window.localStorage.setItem('userState', JSON.stringify(userState))
+}
+
 var transitionsTaken = {
     get : function () {
-        var userState = window.localStorage.getItem('userState');
-        if (userState) {
-            userState = JSON.parse(userState);
-            return userState.transitions;
-        }
-        return [];
+        return getUserState().transitions;
     },
     set : function (transitions) {
-        var userState = window.localStorage.getItem('userState');
-        if (userState) {
-            userState = JSON.parse(userState);
-            userState.version += 1;
-            userState.transitions = transitions;
-        } else {
-            userState = {
-                version : 0,
-                transitions : transitions
-            };
-        }
-        window.localStorage.setItem('userState', JSON.stringify(userState));
+        var userState = getUserState();
+        userState.version += 1;
+        userState.transitions = transitions;
+        setUserState(userState);
         parseUser.updateData();
     },
     version : function () {
-        var userState = window.localStorage.getItem('userState');
-        if (userState) {
-            userState = JSON.parse(userState);
-            return userState.version;
-        }
-        return 'no user state';
+        return getUserState().version;
     }
 };
 
@@ -63,7 +62,7 @@ function draw() {
     availableTransitions.empty();
 
     function addHistoryItem(state) {
-        var historyItems = $('.history .list');
+        var historyItems = $('.history li');
         history.append(
             $('<li>')
                 .click(historyClickHandler(historyItems.length))
@@ -74,32 +73,31 @@ function draw() {
 
     var currentState = workflow[0];
     addHistoryItem(currentState);
-    $.each(transitionsTaken.get(), function () {
-        var transitionID = this;
-        $.each(currentState.transitions, function () {
-            var transitionTaken = this;
+    for (var i=0; i<transitionsTaken.get().length; i++) {
+        var transitionID = transitionsTaken.get()[i];
+        for (var j=0; j<currentState.transitions.length; j++) {
+            var transitionTaken = currentState.transitions[j];
             if (transitionTaken.id === transitionID) {
                 $('.history li').last().append(' : ' + transitionTaken.description);
-                $.each(workflow, function () {
-                    var state = this;
+                for (var k=0; k<workflow.length; k++) {
+                    var state = workflow[k];
                     if (state.id === transitionTaken.destination) {
                         currentState = state;
                         addHistoryItem(currentState);
                     }
-                });
+                }
             }
-        });
-    });
+        }
+    }
 
-    $.each(currentState.transitions, function () {
-        "use strict";
-        var availableTransition = this;
+    for (i=0; i<currentState.transitions.length; i++) {
+        var availableTransition = currentState.transitions[i];
         availableTransitions
             .append($('<li>')
             .attr('title', 'availableTransition id: ' + availableTransition.id)
             .click(transitionClickHandler(availableTransition.id))
             .append(availableTransition.description));
-    });
+    }
     $('.version').text(transitionsTaken.version());
     console.timeEnd('draw');
 }

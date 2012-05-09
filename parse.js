@@ -43,24 +43,24 @@ function onAuthentication(response) {
         where : { userID : parseUser.objectId }
     }, function(response) {
         if (response.results.length === 0) {
-            var userState = window.localStorage.getItem('userState');
+            var userState = getUserState();
             // user state already stored as JSON string
             $.parse.post('userState', JSON.parse(userState), function(response){
                 parseUser.userStateParseObjectId = response.objectId;
             }, showParseError);
         } else {
-            window.localStorage.setItem('userState', JSON.stringify(response.results[0]));
+            setUserState(response.results[0]);
         }
     }, showParseError);
     parseUser.updateData = function () {
-        var userState = JSON.parse(window.localStorage.getItem('userState'));
+        var userState = JSON.parse(getUserState());
         $.parse.put('userState/' + parseUser.userStateParseObjectId, userState, function(){
             console.warn('updateData complete');
         }, showParseError);
     };
     parseUser.isSignedIn = true;
-    $('.signIn').css({visibility: 'hidden'});
-    $('.signOut').css({visibility: 'visible'});
+    $('.signIn').css({display: 'none'});
+    $('.signOut').css({display: 'block'});
 }
 
 function showParseError(response) {
@@ -76,8 +76,8 @@ function showParseError(response) {
 function signOut() {
     "use strict";
     parseUser = nullUser;
-    $('.signIn').css({visibility: 'visible'});
-    $('.signOut').css({visibility: 'hidden'});
+    $('.signIn').css({display: 'block'});
+    $('.signOut').css({display: 'none'});
 }
 
 function signIn() {

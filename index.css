@@ -1,10 +1,10 @@
 body {font-family:"Verdana", "Trebuchet MS", sans-serif; margin:50px;}
-.error {visibility: hidden; padding-left:8px; padding-right: 8px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 10px}
-.availableTransitions {float:left; padding-right: 50px;}
+.error {visibility: hidden; padding: 5px 8px; margin-bottom: 10px}
+.availableTransitions {clear: both; float: left; padding-right: 50px;}
 .history {float:left;}
-.tools {clear: both;}
-.test {visibility: hidden;clear: both}
-.update {visibility: hidden; padding-left:8px; padding-right: 8px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 15px}
-.networkStatus {margin-top: 20px}
+.test {visibility: hidden;clear: both;}
+.update {display: none; padding: 5px 8px; margin-bottom: 15px}
+.networkStatus {margin-top: 20px;}
 .defaultValue {color:gray;}
-.signOut {visibility: hidden;}
+.signOut {display: none;}
+.status {float: right;}

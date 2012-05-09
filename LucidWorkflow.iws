@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a673252d-fc6b-42b5-8255-7bfa8169f7ae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.mf" />
+      <change type="DELETED" beforePath="I:\LucidWorkflow\old.mf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LucidWorkflow.ipr" afterPath="$PROJECT_DIR$/LucidWorkflow.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LucidWorkflow.iws" afterPath="$PROJECT_DIR$/LucidWorkflow.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networkStatus.js" afterPath="$PROJECT_DIR$/networkStatus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parse.js" afterPath="$PROJECT_DIR$/parse.js" />
     </list>
     <ignored path="LucidWorkflow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,19 +68,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="6" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
+            <state line="24" column="13" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.677116">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.mf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.mf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ping.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ping.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="185" selection-end="185" vertical-scroll-proportion="0.026946107">
+            <state line="63" column="14" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +116,7 @@
       <file leaf-file-name="networkStatus.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/networkStatus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+            <state line="29" column="32" selection-start="673" selection-end="683" vertical-scroll-proportion="-17.72">
               <folding />
             </state>
           </provider>
@@ -101,7 +136,7 @@
       <file leaf-file-name="parse.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="0" selection-start="3563" selection-end="3563" vertical-scroll-proportion="0.0">
+            <state line="30" column="7" selection-start="896" selection-end="896" vertical-scroll-proportion="-4.96">
               <folding />
             </state>
           </provider>
@@ -146,15 +181,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="old.mf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old.mf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -178,14 +204,15 @@
         <option value="$PROJECT_DIR$/ui.html" />
         <option value="$PROJECT_DIR$/online.js" />
         <option value="$PROJECT_DIR$/workflow.js" />
-        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/remote.js" />
         <option value="$PROJECT_DIR$/tests.js" />
         <option value="$PROJECT_DIR$/ping.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/networkStatus.js" />
+        <option value="$PROJECT_DIR$/manifest.mf" />
         <option value="$PROJECT_DIR$/parse.js" />
+        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -314,6 +341,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -344,30 +374,43 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="80" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="122" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="60" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="100" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="446" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="569" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="60" />
+    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="59" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="JavaScriptPreferStrict" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -668,15 +711,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
-      <module name="" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -685,6 +719,15 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -848,14 +891,15 @@
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4899371" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20019342" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5081761" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4874214" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -865,7 +909,6 @@
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20019342" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941972" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -876,8 +919,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -908,7 +951,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -930,26 +973,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qunit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="1" selection-start="5046" selection-end="5046" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cupertino/jquery-ui-1.8.20.custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.025176235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="557" selection-end="557" vertical-scroll-proportion="0.160555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ping.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.055900622" />
@@ -975,16 +998,19 @@
         <state line="1358" column="18" selection-start="23879" selection-end="23879" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/networkStatus.js">
+    <entry file="file://$PROJECT_DIR$/js/jquery-ui-1.8.20.custom.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" />
+        <state line="28" column="1133" selection-start="40256" selection-end="40256" vertical-scroll-proportion="0.5619048" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests.js">
@@ -992,58 +1018,49 @@
         <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse.js">
+    <entry file="file://$PROJECT_DIR$/parsePlugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="3563" selection-end="3563" vertical-scroll-proportion="0.0">
+        <state line="133" column="13" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parsePlugin.js">
+    <entry file="file://$PROJECT_DIR$/networkStatus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="13" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1335976820650" expanded="true" signature="57:157" placeholder="//..." />
-            <marker date="1335976820650" expanded="true" signature="208:256" placeholder="{&quot;base&quot;: &quot;https://api.parse.com/1/&quot;...}" />
-            <marker date="1335976820650" expanded="true" signature="397:795" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="463:499" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="849:924" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="1002:2385" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="1045:1082" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="1099:1610" placeholder="{&quot;contentType&quot;: &quot;application/json&quot;...}" />
-            <marker date="1335976820650" expanded="true" signature="1362:1452" placeholder="//..." />
-            <marker date="1335976820650" expanded="true" signature="1474:1600" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="1697:1740" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="1847:2191" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="1897:2046" placeholder="//..." />
-            <marker date="1335976820650" expanded="true" signature="2109:2181" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="2245:2297" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="2427:2593" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="2634:2884" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="2939:3048" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="3056:3245" placeholder="/*...*/" />
-            <marker date="1335976820650" expanded="true" signature="3311:3871" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="3384:3863" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="3617:3725" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="3917:4966" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="3928:4161" placeholder="//..." />
-            <marker date="1335976820650" expanded="true" signature="4204:4271" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="4282:4469" placeholder="//..." />
-            <marker date="1335976820650" expanded="true" signature="4525:4629" placeholder="{...}" />
-            <marker date="1335976820650" expanded="true" signature="4640:4807" placeholder="//..." />
-            <marker date="1335976820650" expanded="true" signature="4865:4959" placeholder="{...}" />
-          </folding>
+        <state line="29" column="32" selection-start="673" selection-end="683" vertical-scroll-proportion="-17.72">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old.mf">
+    <entry file="file://$PROJECT_DIR$/parse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" />
+        <state line="30" column="7" selection-start="896" selection-end="896" vertical-scroll-proportion="-4.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="185" selection-end="185" vertical-scroll-proportion="0.026946107">
+        <state line="63" column="14" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.677116">
           <folding />
         </state>
       </provider>
@@ -1054,6 +1071,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1089,7 +1107,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.5</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

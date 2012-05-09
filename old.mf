@@ -1,4 +1,0 @@
-CACHE MANIFEST
-#v5
-index.html
-jquery.js
