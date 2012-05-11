@@ -187,4 +187,8 @@ $(document).ready(function () {
         }
     ];
     draw();
+    $('.clearHistory').click(function () {
+        window.localStorage.clear();
+        draw();
+    });
 });

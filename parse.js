@@ -117,4 +117,8 @@ $(document).ready(function () {
         app_id : "yvnEoStBUE7pBbKZeEzdpb68A6nqBmXMhnW7LQO6",
         rest_key : "yjRYJ5BZzCJYkd6Mb1nxeWA4tskOkD5KdYUEMyOv"
     });
+    $('#signInForm')[0].setAttribute('action', 'javascript:signIn();');
+    $('.signOut').click(function () {
+        signOut();
+    });
 });

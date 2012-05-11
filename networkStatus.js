@@ -19,14 +19,14 @@ function checkNetworkStatus() {
 
 function showOnline() {
     "use strict";
-    $('.networkStatus').html("Online");
+    $('.networkStatus').html('Online');
     $('.signIn').css({visibility:'visible'});
     checkAgain();
 }
 
 function showOffline() {
     "use strict";
-    $('.networkStatus').html("Offline");
+    $('.networkStatus').html('Offline');
     $('.signIn').css({visibility:'hidden'});
     checkAgain();
 }

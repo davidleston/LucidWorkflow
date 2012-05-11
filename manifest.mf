@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#v24
+#v31
 qunit.css
 index.css
 js/jquery-1.7.2.min.js
@@ -16,7 +16,7 @@ css/cupertino/images/ui-icons_2e83ff_256x240.png
 css/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png
 css/cupertino/images/ui-icons_ffffff_256x240.png
 iphoneIcon.png
-iphoneSlpash.png
+iphoneSplash.png
 
 NETWORK:
 *
