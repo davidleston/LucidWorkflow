@@ -1,11 +1,9 @@
 CACHE MANIFEST
-#v31
-qunit.css
+#v61
 index.css
 js/jquery-1.7.2.min.js
 js/jquery-ui-1.8.20.custom.min.js
 parsePlugin.js
-qunit.js
 index.js
 parse.js
 networkStatus.js
@@ -17,6 +15,10 @@ css/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png
 css/cupertino/images/ui-icons_ffffff_256x240.png
 iphoneIcon.png
 iphoneSplash.png
+jqueryMobile.js
+jqueryMobile.css
+images/ajax-loader.gif
+images/icons-18-white.png
 
 NETWORK:
 *

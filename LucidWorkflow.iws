@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a673252d-fc6b-42b5-8255-7bfa8169f7ae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ajax-loader.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons-18-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons-18-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons-36-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons-36-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryMobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryMobile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LucidWorkflow.iws" afterPath="$PROJECT_DIR$/LucidWorkflow.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.mf" afterPath="$PROJECT_DIR$/manifest.mf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networkStatus.js" afterPath="$PROJECT_DIR$/networkStatus.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parse.js" afterPath="$PROJECT_DIR$/parse.js" />
+      <change type="MOVED" beforePath="I:\LucidWorkflow\manifest.mf" afterPath="$PROJECT_DIR$/old.mf" />
     </list>
     <ignored path="LucidWorkflow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="2463" selection-end="2463" vertical-scroll-proportion="-24.966667">
+            <state line="18" column="0" selection-start="775" selection-end="775" vertical-scroll-proportion="0.41273886">
               <folding />
             </state>
           </provider>
@@ -78,16 +85,16 @@
       <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.mf" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <file leaf-file-name="old.mf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old.mf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.02208589">
+            <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +112,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="3" selection-start="5473" selection-end="5473" vertical-scroll-proportion="0.0">
+            <state line="194" column="11" selection-start="5522" selection-end="5522" vertical-scroll-proportion="-139.68">
               <folding />
             </state>
           </provider>
@@ -132,7 +139,7 @@
       <file leaf-file-name="parse.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="23" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0">
+            <state line="86" column="0" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -193,8 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/jquery.js" />
-        <option value="$PROJECT_DIR$/index.mf" />
         <option value="$PROJECT_DIR$/qunit.js" />
         <option value="$PROJECT_DIR$/qunit.css" />
         <option value="$PROJECT_DIR$/ui.html" />
@@ -203,12 +208,14 @@
         <option value="$PROJECT_DIR$/remote.js" />
         <option value="$PROJECT_DIR$/tests.js" />
         <option value="$PROJECT_DIR$/ping.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/networkStatus.js" />
-        <option value="$PROJECT_DIR$/parse.js" />
+        <option value="$PROJECT_DIR$/jqueryMobile.js" />
+        <option value="$PROJECT_DIR$/jqueryMobile.css" />
         <option value="$PROJECT_DIR$/index.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/manifest.mf" />
+        <option value="$PROJECT_DIR$/parse.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -412,6 +419,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\LucidWorkflow\images" />
       <recent name="I:\LucidWorkflow" />
     </key>
   </component>
@@ -890,7 +898,11 @@
       <created>1336767968406</created>
       <updated>1336767968406</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed iphoneSplash screen. Using &lt;button&gt; tag now. Moved scripts to bottom of HTML.">
+      <created>1336774046145</created>
+      <updated>1336774046145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -958,7 +970,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed type attributes on link and script tags as these are already the defaults for HTML5. Also added iOS app-specific tags, icon and slpash screen. Splash screen hides the refresh of the page that would otherwise be visible." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed iphoneSplash screen. Using &lt;button&gt; tag now. Moved scripts to bottom of HTML." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -973,6 +985,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Enabled offline app. Moved authentication to the top. Some small JavaScript refactorings." />
     <MESSAGE value="removed type attributes on link and script tags as these are already the defaults for HTML5. Also added iOS app-specific tags, icon and slpash screen. Splash screen hides the refresh of the page that would otherwise be visible." />
+    <MESSAGE value="Fixed iphoneSplash screen. Using &lt;button&gt; tag now. Moved scripts to bottom of HTML." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -982,26 +995,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qunit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1758" column="41" selection-start="63202" selection-end="63202" vertical-scroll-proportion="0.87349397" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/development-bundle/ui/jquery.effects.explode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/development-bundle/ui/jquery-ui-1.8.20.custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11238" column="32" selection-start="359718" selection-end="359718" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1358" column="18" selection-start="23879" selection-end="23879" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
@@ -1039,37 +1032,67 @@
         <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/css/cupertino/jquery-ui-1.8.20.custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="3" selection-start="5473" selection-end="5473" vertical-scroll-proportion="0.0">
+        <state line="3" column="55" selection-start="94" selection-end="96" vertical-scroll-proportion="0.03732304">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse.js">
+    <entry file="file://$PROJECT_DIR$/qunit.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="23" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0">
+        <state line="42" column="6" selection-start="1094" selection-end="1096" vertical-scroll-proportion="0.92531645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryMobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryMobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old.mf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="0" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="11" selection-start="5522" selection-end="5522" vertical-scroll-proportion="-139.68">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2463" selection-end="2463" vertical-scroll-proportion="-24.966667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.mf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.02208589">
+        <state line="18" column="0" selection-start="775" selection-end="775" vertical-scroll-proportion="0.41273886">
           <folding />
         </state>
       </provider>

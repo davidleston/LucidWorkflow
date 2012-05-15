@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html manifest="manifest.mf">
+<html>
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/cupertino/jquery-ui-1.8.20.custom.css"/>
-    <link rel="stylesheet" href="qunit.css" media="screen"/>
     <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="jqueryMobile.css"/>
     <title>LucidWorkflow</title>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -12,49 +13,63 @@
     <link rel="apple-touch-startup-image" href="iphoneSplash.png"/>
 </head>
 <body>
-<div class="update ui-state-highlight ui-corner-all">
-    <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-    Update available <input type="button" onclick="window.location.reload(true)" value="reload app">
+<div data-role="page" id="actionsPage">
+    <div data-role="header">
+        <h1>Available Transitions</h1>
+    </div>
+    <div data-role="content">
+        <div class="status">
+            <span class="networkStatus">Checking network status...</span> v<span class="version"></span>
+        </div>
+        <ul class="availableTransitions" data-role="listview" data-insert="true"></ul>
+    </div>
+    <div data-role="footer" data-position="fixed" data-fullscreen="true">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#actionsPage" class="ui-btn-active">Actions</a></li>
+                <li><a href="#historyPage" data-role="button">History</a></li>
+                <li>
+                    <a href="#signInPage" class="signIn">Sign In</a>
+                    <a href="#actionsPage" class="signOut" style="display: none;">Sign Out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
-<div class="error ui-state-error ui-corner-all">
-    <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
-    <strong><span class="errorMessage">filler</span></strong><br/>
-    error <span class="errorNumber"></span>
+<div data-role="page" id="historyPage" data-add-back-btn="true">
+    <div data-role="header">
+        <h1>History</h1>
+    </div>
+    <div class="history">
+        <ol class="list" data-role="listview" data-insert="true"></ol>
+        <a data-role="button" href="#" class="clearHistory">clear history</a>
+    </div>
 </div>
-<div class="status">
-    <span class="networkStatus">Checking network status...</span> v<span class="version"></span>
-</div>
-<div class="signIn">
-    <form id="signInForm">
-        <input type="text" class="default" id="emailAddress" title="email address"/>
-        <input type="text" class="default" id="password" title="password"/>
-        <button type="submit" id="submit">sign in / up</button>
-    </form>
-</div>
-<button class="signOut">sign out</button>
-<div class="availableTransitions">
-    <h1>Available Transitions</h1>
-    <ul class="list"></ul>
-</div>
-<div class="history">
-    <h1>History <button class="clearHistory">clear history</button></h1>
-    <ol class="list"></ol>
-</div>
-<div class="test">
-    <h1 id="qunit-header">QUnit example</h1>
-    <h2 id="qunit-banner"></h2>
-    <div id="qunit-testrunner-toolbar"></div>
-    <h2 id="qunit-userAgent"></h2>
-    <ol id="qunit-tests"></ol>
-    <div id="qunit-fixture">test markup, will be hidden</div>
+<div data-role="page" id="signInPage" data-add-back-btn="true">
+    <div data-role="header">
+        <h1>Sign In / Sign Up</h1>
+    </div>
+    <div class="error ui-state-error ui-corner-all">
+        <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+        <strong><span class="errorMessage">filler</span></strong><br/>
+        error <span class="errorNumber"></span>
+    </div>
+    <div class="signIn">
+        <form id="signInForm">
+            <label for="emailAddress">email address</label>
+            <input type="text" class="default" id="emailAddress" title="email address"/>
+            <label for="password">password</label>
+            <input type="text" class="default" id="password" title="password"/>
+            <button type="submit" id="submit">sign in / up</button>
+        </form>
+    </div>
 </div>
 <script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/jquery-ui-1.8.20.custom.min.js"></script>
 <script src="parsePlugin.js"></script>
-<script src="qunit.js"></script>
 <script src="index.js"></script>
 <script src="parse.js"></script>
 <script src="networkStatus.js"></script>
-<script src="tests.js"></script>
+<script src="jqueryMobile.js"></script>
 </body>
 </html>

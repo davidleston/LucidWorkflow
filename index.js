@@ -1,8 +1,9 @@
 window.applicationCache.addEventListener("updateready", function () {
-    $('.update').css({display: 'block'});
+    window.location.reload(true);
 });
 
 var workflow;
+var hasbeeninit = false;
 
 function getUserState() {
     "use strict";
@@ -99,6 +100,11 @@ function draw() {
             .append(availableTransition.description));
     }
     $('.version').text(transitionsTaken.version());
+    if (hasbeeninit) {
+        history.listview('refresh');
+        availableTransitions.listview('refresh');
+    }
+    hasbeeninit = true;
     console.timeEnd('draw');
 }
 

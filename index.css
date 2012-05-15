@@ -1,9 +1,3 @@
-body {font-family: "Verdana", "Trebuchet MS", sans-serif; margin: 5px;}
 .error {visibility: hidden; padding: 5px 8px; margin-bottom: 10px}
-.availableTransitions {clear: both; float: left; padding-right: 50px;}
-.history {float: left;}
-.test {display: none; clear: both;}
-.update {display: none; padding: 5px 8px; margin-bottom: 15px}
 .defaultValue {color:gray;}
-.signOut {display: none;}
 .status {float: right;}
