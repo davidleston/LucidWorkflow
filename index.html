@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html manifest="manifest.mf">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/cupertino/jquery-ui-1.8.20.custom.css"/>
     <link rel="stylesheet" href="index.css"/>
     <link rel="stylesheet" href="jqueryMobile.css"/>
     <title>LucidWorkflow</title>
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     <link rel="apple-touch-icon" href="iphoneIcon.png"/>
     <link rel="apple-touch-startup-image" href="iphoneSplash.png"/>
 </head>
 <body>
 <div data-role="page" id="actionsPage">
-    <div data-role="header">
-        <h1>Available Transitions</h1>
+    <div data-id="header" data-role="header" data-position="fixed">
+        <h1>Actions</h1>
     </div>
     <div data-role="content">
-        <div class="status">
-            <span class="networkStatus">Checking network status...</span> v<span class="version"></span>
-        </div>
-        <ul class="availableTransitions" data-role="listview" data-insert="true"></ul>
+        <ul class="availableTransitions" data-role="listview" data-inset="true"></ul>
     </div>
-    <div data-role="footer" data-position="fixed" data-fullscreen="true">
+    <div data-id="footer" data-role="footer" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a href="#actionsPage" class="ui-btn-active">Actions</a></li>
+                <li><a href="#actionsPage" class="ui-btn-active ui-state-persist">Actions</a></li>
                 <li><a href="#historyPage" data-role="button">History</a></li>
                 <li>
                     <a href="#signInPage" class="signIn">Sign In</a>
@@ -36,36 +32,65 @@
         </div>
     </div>
 </div>
-<div data-role="page" id="historyPage" data-add-back-btn="true">
-    <div data-role="header">
+<div data-role="page" id="historyPage">
+    <div data-id="header" data-role="header" data-position="fixed">
         <h1>History</h1>
+        <a data-role="button" href="#" class="clearHistory ui-btn-right">clear history</a>
     </div>
-    <div class="history">
-        <ol class="list" data-role="listview" data-insert="true"></ol>
-        <a data-role="button" href="#" class="clearHistory">clear history</a>
+    <div data-role="content">
+        <ol class="history" data-role="listview" data-inset="true"></ol>
+
+        <div class="status">
+            <span class="networkStatus">Checking network status...</span> v<span class="version"></span>
+        </div>
+    </div>
+    <div data-id="footer" data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#actionsPage">Actions</a></li>
+                <li><a href="#historyPage" class="ui-btn-active ui-state-persist" data-role="button">History</a></li>
+                <li>
+                    <a href="#signInPage" class="signIn">Sign In</a>
+                    <a href="#actionsPage" class="signOut" style="display: none;">Sign Out</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
-<div data-role="page" id="signInPage" data-add-back-btn="true">
-    <div data-role="header">
+<div data-role="page" id="signInPage">
+    <div data-id="header" data-role="header" data-position="fixed">
         <h1>Sign In / Sign Up</h1>
     </div>
-    <div class="error ui-state-error ui-corner-all">
-        <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
-        <strong><span class="errorMessage">filler</span></strong><br/>
-        error <span class="errorNumber"></span>
+    <div data-role="content">
+        <div class="error ui-state-error ui-corner-all">
+            <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+            <strong><span class="errorMessage">filler</span></strong><br/>
+            error <span class="errorNumber"></span>
+        </div>
+        <div class="signIn">
+            <form id="signInForm">
+                <label for="emailAddress">email address</label>
+                <input type="email" class="default" id="emailAddress" title="email address"/></br>
+                <label for="password">password</label>
+                <input type="text" class="default" id="password" title="password"/><br/>
+                <button type="submit" id="submit">sign in / up</button>
+            </form>
+        </div>
     </div>
-    <div class="signIn">
-        <form id="signInForm">
-            <label for="emailAddress">email address</label>
-            <input type="text" class="default" id="emailAddress" title="email address"/>
-            <label for="password">password</label>
-            <input type="text" class="default" id="password" title="password"/>
-            <button type="submit" id="submit">sign in / up</button>
-        </form>
+    <div data-id="footer" data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#actionsPage">Actions</a></li>
+                <li><a href="#historyPage" data-role="button">History</a></li>
+                <li>
+                    <a href="#signInPage" class="signIn ui-btn-active ui-state-persist">Sign In</a>
+                    <a href="#actionsPage" class="signOut ui-btn-active ui-state-persist" style="display: none;">Sign Out</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 <script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/jquery-ui-1.8.20.custom.min.js"></script>
 <script src="parsePlugin.js"></script>
 <script src="index.js"></script>
 <script src="parse.js"></script>

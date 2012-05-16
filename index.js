@@ -56,10 +56,10 @@ function historyClickHandler(index) {
 
 function draw() {
     console.time('draw');
-    var history = $('.history .list');
+    var history = $('.history');
     history.empty();
 
-    var availableTransitions = $('.availableTransitions .list');
+    var availableTransitions = $('.availableTransitions');
     availableTransitions.empty();
 
     function addHistoryItem(state) {
