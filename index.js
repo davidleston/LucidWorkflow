@@ -55,6 +55,7 @@ function historyClickHandler(index) {
 }
 
 function draw() {
+    console.time('draw');
     var history = $('ol.history');
     history.empty();
 
@@ -104,6 +105,7 @@ function draw() {
         availableTransitions.listview('refresh');
     }
     hasbeeninit = true;
+    console.timeEnd('draw');
 }
 
 $(document).ready(function () {

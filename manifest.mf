@@ -1,7 +1,7 @@
 CACHE MANIFEST
-#v94
+#v1
 index.css
-js/jquery-1.7.2.min.js
+zepto.js
 parsePlugin.js
 index.js
 parse.js
@@ -12,7 +12,6 @@ jqueryMobile.js
 jqueryMobile.css
 images/ajax-loader.gif
 images/icons-18-white.png
-compiled.js
 
 NETWORK:
 *
