@@ -12,79 +12,49 @@
     <link rel="apple-touch-startup-image" href="iphoneSplash.png"/>
 </head>
 <body>
-<div data-role="page" id="actionsPage">
+<div data-role="page">
     <div data-id="header" data-role="header" data-position="fixed">
-        <h1>Actions</h1>
+        <h1 class="actions">Actions</h1>
+        <h1 class="history">History</h1>
+        <a data-role="button" href="#" class="clearHistory ui-btn-right history">clear history</a>
+        <h1 class="authentication">Sign In / Sign Up</h1>
     </div>
     <div data-role="content">
-        <ul class="availableTransitions" data-role="listview" data-inset="true"></ul>
-    </div>
-    <div data-id="footer" data-role="footer" data-position="fixed">
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#actionsPage" class="ui-btn-active ui-state-persist">Actions</a></li>
-                <li><a href="#historyPage" data-role="button">History</a></li>
-                <li>
-                    <a href="#signInPage" class="signIn">Sign In</a>
-                    <a href="#actionsPage" class="signOut" style="display: none;">Sign Out</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div data-role="page" id="historyPage">
-    <div data-id="header" data-role="header" data-position="fixed">
-        <h1>History</h1>
-        <a data-role="button" href="#" class="clearHistory ui-btn-right">clear history</a>
-    </div>
-    <div data-role="content">
-        <ol class="history" data-role="listview" data-inset="true"></ol>
+        <section class="actions">
+            <ul class="availableTransitions" data-role="listview" data-inset="true"></ul>
+        </section>
+        <section class="history">
+            <ol class="history" data-role="listview" data-inset="true"></ol>
 
-        <div class="status">
-            <span class="networkStatus">Checking network status...</span> v<span class="version"></span>
-        </div>
+            <div class="status">
+                <span class="networkStatus">Checking network status...</span> v<span class="version"></span>
+            </div>
+        </section>
+        <section class="authentication">
+            <div class="error ui-state-error ui-corner-all">
+                <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+                <strong><span class="errorMessage">filler</span></strong><br/>
+                error <span class="errorNumber"></span>
+            </div>
+            <div class="signIn">
+                <form id="signInForm">
+                    <label for="emailAddress">email address</label>
+                    <input type="email" class="default" id="emailAddress" title="email address"/></br>
+                    <label for="password">password</label>
+                    <input type="text" class="default" id="password" title="password"/><br/>
+                    <button type="submit" id="submit">sign in / up</button>
+                </form>
+            </div>
+        </section>
     </div>
     <div data-id="footer" data-role="footer" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a href="#actionsPage">Actions</a></li>
-                <li><a href="#historyPage" class="ui-btn-active ui-state-persist" data-role="button">History</a></li>
+                <li><a data-role="button" class="ui-btn-active actionsNav">Actions</a></li>
+                <li><a data-role="button" class="historyNav">History</a></li>
                 <li>
-                    <a href="#signInPage" class="signIn">Sign In</a>
-                    <a href="#actionsPage" class="signOut" style="display: none;">Sign Out</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div data-role="page" id="signInPage">
-    <div data-id="header" data-role="header" data-position="fixed">
-        <h1>Sign In / Sign Up</h1>
-    </div>
-    <div data-role="content">
-        <div class="error ui-state-error ui-corner-all">
-            <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
-            <strong><span class="errorMessage">filler</span></strong><br/>
-            error <span class="errorNumber"></span>
-        </div>
-        <div class="signIn">
-            <form id="signInForm">
-                <label for="emailAddress">email address</label>
-                <input type="email" class="default" id="emailAddress" title="email address"/></br>
-                <label for="password">password</label>
-                <input type="text" class="default" id="password" title="password"/><br/>
-                <button type="submit" id="submit">sign in / up</button>
-            </form>
-        </div>
-    </div>
-    <div data-id="footer" data-role="footer" data-position="fixed">
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#actionsPage">Actions</a></li>
-                <li><a href="#historyPage" data-role="button">History</a></li>
-                <li>
-                    <a href="#signInPage" class="signIn ui-btn-active ui-state-persist">Sign In</a>
-                    <a href="#actionsPage" class="signOut ui-btn-active ui-state-persist" style="display: none;">Sign Out</a>
+                    <a data-role="button" class="signIn authenticationNav">Sign In</a>
+                    <a data-role="button" class="signOut authenticationNav" style="display: none;">Sign Out</a>
                 </li>
             </ul>
         </div>

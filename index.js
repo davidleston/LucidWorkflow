@@ -55,15 +55,14 @@ function historyClickHandler(index) {
 }
 
 function draw() {
-    console.time('draw');
-    var history = $('.history');
+    var history = $('ol.history');
     history.empty();
 
     var availableTransitions = $('.availableTransitions');
     availableTransitions.empty();
 
     function addHistoryItem(state) {
-        var historyItems = $('.history li');
+        var historyItems = $('ol.history li');
         history.append(
             $('<li>')
                 .click(historyClickHandler(historyItems.length))
@@ -79,7 +78,7 @@ function draw() {
         for (var j=0; j<currentState.transitions.length; j++) {
             var transitionTaken = currentState.transitions[j];
             if (transitionTaken.id === transitionID) {
-                $('.history li').last().append(' : ' + transitionTaken.description);
+                $('ol.history li').last().append(' : ' + transitionTaken.description);
                 for (var k=0; k<workflow.length; k++) {
                     var state = workflow[k];
                     if (state.id === transitionTaken.destination) {
@@ -105,10 +104,28 @@ function draw() {
         availableTransitions.listview('refresh');
     }
     hasbeeninit = true;
-    console.timeEnd('draw');
 }
 
 $(document).ready(function () {
+    var actions = $('.actions')
+    var history = $('.history').hide();
+    var authentication = $('.authentication').hide();
+    $('.actionsNav').click(function() {
+        actions.show();
+        history.hide();
+        authentication.hide();
+    });
+    $('.historyNav').click(function() {
+        actions.hide();
+        history.show();
+        authentication.hide();
+    });
+    $('.authenticationNav').click(function() {
+        actions.hide();
+        history.hide();
+        authentication.show();
+    });
+
     // intentionally global
     workflow = [
         {
@@ -197,4 +214,9 @@ $(document).ready(function () {
         window.localStorage.clear();
         draw();
     });
+});
+
+$(document).bind("mobileinit", function() {
+    $.mobile.defaultPageTransition = 'none';
+    $.mobile.buttonMarkup.hoverDelay = 0;
 });

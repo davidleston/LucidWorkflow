@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a673252d-fc6b-42b5-8255-7bfa8169f7ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.mf" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-icons_2694e8_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-icons_3d80b3_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-icons_72a7cf_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\css\cupertino\jquery-ui-1.8.20.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\js\jquery-ui-1.8.20.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="I:\LucidWorkflow\old.mf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LucidWorkflow.iws" afterPath="$PROJECT_DIR$/LucidWorkflow.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jqueryMobile.css" afterPath="$PROJECT_DIR$/jqueryMobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.mf" afterPath="$PROJECT_DIR$/manifest.mf" />
     </list>
     <ignored path="LucidWorkflow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,10 +65,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="43" selection-end="43" vertical-scroll-proportion="0.022929937">
+            <state line="26" column="0" selection-start="1144" selection-end="1144" vertical-scroll-proportion="-15.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jqueryMobile.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jqueryMobile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,10 +86,8 @@
       <file leaf-file-name="jqueryMobile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jqueryMobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="3196" column="13" selection-start="128234" selection-end="135808" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +95,7 @@
       <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,7 +104,7 @@
       <file leaf-file-name="manifest.mf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.mf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="14" column="8" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="3119" selection-end="3119" vertical-scroll-proportion="0.0">
+            <state line="106" column="0" selection-start="3123" selection-end="3123" vertical-scroll-proportion="0.8453988">
               <folding />
             </state>
           </provider>
@@ -219,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/qunit.css" />
         <option value="$PROJECT_DIR$/ui.html" />
         <option value="$PROJECT_DIR$/online.js" />
         <option value="$PROJECT_DIR$/workflow.js" />
@@ -227,14 +217,15 @@
         <option value="$PROJECT_DIR$/tests.js" />
         <option value="$PROJECT_DIR$/ping.js" />
         <option value="$PROJECT_DIR$/networkStatus.js" />
-        <option value="$PROJECT_DIR$/jqueryMobile.js" />
-        <option value="$PROJECT_DIR$/jqueryMobile.css" />
-        <option value="$PROJECT_DIR$/manifest.mf" />
         <option value="$PROJECT_DIR$/parse.js" />
-        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/old.mf" />
-        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/jqueryMobile.css" />
+        <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/jqueryMobile.js" />
+        <option value="$PROJECT_DIR$/compiled.js" />
+        <option value="$PROJECT_DIR$/manifest.mf" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -365,6 +356,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -412,9 +406,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -953,7 +944,11 @@
       <created>1337104671957</created>
       <updated>1337104671957</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fully functional with jQuery Mobile.">
+      <created>1337126584348</created>
+      <updated>1337126584348</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -964,22 +959,22 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4899371" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.49786323" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.49839744" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4874214" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16292734" sideWeight="0.8" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16292734" sideWeight="0.8" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.49786323" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941972" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1021,7 +1016,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now using jQuery Mobile. Navigating around the state machine doesn't work yet. Can navigate between some screens." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully functional with jQuery Mobile." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1038,6 +1033,7 @@
     <MESSAGE value="removed type attributes on link and script tags as these are already the defaults for HTML5. Also added iOS app-specific tags, icon and slpash screen. Splash screen hides the refresh of the page that would otherwise be visible." />
     <MESSAGE value="Fixed iphoneSplash screen. Using &lt;button&gt; tag now. Moved scripts to bottom of HTML." />
     <MESSAGE value="Now using jQuery Mobile. Navigating around the state machine doesn't work yet. Can navigate between some screens." />
+    <MESSAGE value="Fully functional with jQuery Mobile." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1052,14 +1048,19 @@
         <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parsePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="13" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iphoneSplash.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qunit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="6" selection-start="1094" selection-end="1096" vertical-scroll-proportion="0.92531645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryMobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ping.js">
@@ -1069,9 +1070,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/networkStatus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="30" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests.js">
@@ -1079,60 +1078,47 @@
         <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qunit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="6" selection-start="1094" selection-end="1096" vertical-scroll-proportion="0.92531645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jqueryMobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="86" column="0" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsePlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="13" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jqueryMobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="3196" column="13" selection-start="128234" selection-end="135808" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="3119" selection-end="3119" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.mf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+        <state line="14" column="8" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="43" selection-end="43" vertical-scroll-proportion="0.022929937">
+        <state line="26" column="0" selection-start="1144" selection-end="1144" vertical-scroll-proportion="-15.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="3123" selection-end="3123" vertical-scroll-proportion="0.8453988">
           <folding />
         </state>
       </provider>
