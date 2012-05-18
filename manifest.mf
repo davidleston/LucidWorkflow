@@ -1,7 +1,7 @@
 CACHE MANIFEST
-#v1
+#v6
 index.css
-zepto.js
+jquery.js
 parsePlugin.js
 index.js
 parse.js
