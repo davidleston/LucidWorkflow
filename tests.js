@@ -1,6 +1,6 @@
 "use strict";
 
-//$(document).ready(function() {
+//$(function() {
 //    test("start with null user", function() {
 //        equal(parseUser.objectId, "");
 //    });

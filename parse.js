@@ -82,7 +82,7 @@ function signUp() {
     });
 }
 
-$(document).ready(function () {
+$(function () {
     "use strict";
     $.parse.init({
         app_id : "yvnEoStBUE7pBbKZeEzdpb68A6nqBmXMhnW7LQO6",

@@ -46,7 +46,7 @@ var checkAgain = checkIfOnline;
 checkIfOnline.other = doNotCheckIfOnline;
 doNotCheckIfOnline.other = checkIfOnline;
 
-$(document).ready(function () {
+$(function () {
     "use strict";
     checkNetworkStatus();
     $('.networkStatus').click(function () {

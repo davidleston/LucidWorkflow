@@ -108,7 +108,7 @@ function draw() {
     console.timeEnd('draw');
 }
 
-$(document).ready(function () {
+$(function () {
     var actions = $('.actions')
     var history = $('.history').hide();
     var authentication = $('.authentication').hide();

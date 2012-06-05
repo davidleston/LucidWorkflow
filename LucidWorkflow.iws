@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a673252d-fc6b-42b5-8255-7bfa8169f7ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LucidWorkflow.iws" afterPath="$PROJECT_DIR$/LucidWorkflow.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.mf" afterPath="$PROJECT_DIR$/manifest.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networkStatus.js" afterPath="$PROJECT_DIR$/networkStatus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parse.js" afterPath="$PROJECT_DIR$/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests.js" afterPath="$PROJECT_DIR$/tests.js" />
     </list>
     <ignored path="LucidWorkflow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.27515924">
+            <state line="1" column="20" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,19 +100,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.css">
+      <file leaf-file-name="ping.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.mf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+            <state line="224" column="0" selection-start="6260" selection-end="6260" vertical-scroll-proportion="-30.16">
               <folding />
             </state>
           </provider>
@@ -125,28 +127,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ping.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ping.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="29" selection-start="3717" selection-end="3717" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="networkStatus.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/networkStatus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+            <state line="48" column="1" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="1" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qunit.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qunit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="790" column="52" selection-start="28149" selection-end="28149" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="3" selection-start="18" selection-end="18" vertical-scroll-proportion="0.04417178">
               <folding />
             </state>
           </provider>
@@ -179,20 +190,20 @@
       <list>
         <option value="$PROJECT_DIR$/workflow.js" />
         <option value="$PROJECT_DIR$/remote.js" />
-        <option value="$PROJECT_DIR$/tests.js" />
         <option value="$PROJECT_DIR$/ping.js" />
-        <option value="$PROJECT_DIR$/networkStatus.js" />
-        <option value="$PROJECT_DIR$/parse.js" />
         <option value="$PROJECT_DIR$/old.mf" />
         <option value="$PROJECT_DIR$/jqueryMobile.css" />
         <option value="$PROJECT_DIR$/compiled.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/index.css" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/parsePlugin.js" />
         <option value="$PROJECT_DIR$/jqueryMobile.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/manifest.mf" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/networkStatus.js" />
+        <option value="$PROJECT_DIR$/parse.js" />
+        <option value="$PROJECT_DIR$/tests.js" />
       </list>
     </option>
   </component>
@@ -899,7 +910,11 @@
       <created>1337301940011</created>
       <updated>1337301940011</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removed optional head and body tags.">
+      <created>1338587517839</created>
+      <updated>1338587517839</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -910,9 +925,10 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4899371" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.49358973" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.5005342" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.50267094" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4874214" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -924,7 +940,6 @@
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2" sideWeight="0.4957265" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941972" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -967,7 +982,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Back to jQuery from Zepto. Also started using placeholder for form inputs in place of labels." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed optional head and body tags." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -988,6 +1003,7 @@
     <MESSAGE value="Improved speed with jQuery Mobile by using just one page. Still slower than I'd like, but timing the JavaScript shows DOM actions take less than 15 ms using jQuery Mobile and less than 10 ms without. Seems like Safari is painting the screen asynchronously as it's (subjectively) taking longer than what the JS timing is reporting." />
     <MESSAGE value="Moved from jQuery to Zepto." />
     <MESSAGE value="Back to jQuery from Zepto. Also started using placeholder for form inputs in place of labels." />
+    <MESSAGE value="Removed optional head and body tags." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -997,29 +1013,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/iphoneSplash.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qunit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="6" selection-start="1094" selection-end="1096" vertical-scroll-proportion="0.92531645" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="22" selection-start="215" selection-end="227" vertical-scroll-proportion="-4.8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.37546012" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jqueryMobile.css">
@@ -1029,9 +1047,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jqueryMobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="647" column="19" selection-start="27312" selection-end="27312" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="647" column="19" selection-start="27312" selection-end="27312" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/externs/jquery-1.7.js">
@@ -1039,9 +1055,21 @@
         <state line="43" column="9" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
+    <entry file="file://$PROJECT_DIR$/ping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsePlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="11" selection-start="5071" selection-end="5071" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="0" selection-start="6260" selection-end="6260" vertical-scroll-proportion="-30.16">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.js">
@@ -1049,38 +1077,30 @@
         <state line="1" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ping.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="29" selection-start="3717" selection-end="3717" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/networkStatus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parsePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="11" selection-start="5071" selection-end="5071" vertical-scroll-proportion="0.0">
+        <state line="48" column="1" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.mf">
+    <entry file="file://$PROJECT_DIR$/parse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+        <state line="84" column="1" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/qunit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.27515924">
+        <state line="790" column="52" selection-start="28149" selection-end="28149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="18" selection-end="18" vertical-scroll-proportion="0.04417178">
           <folding />
         </state>
       </provider>
